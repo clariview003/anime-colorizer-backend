@@ -5,7 +5,7 @@ import uuid
 from inference import run_inference
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 UPLOAD_FOLDER = "temp"
 
