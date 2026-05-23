@@ -6,7 +6,7 @@ from torchvision import transforms
 
 # ---------------- CONFIG ----------------
 
-IMG_SIZE = 256
+IMG_SIZE = 128
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
